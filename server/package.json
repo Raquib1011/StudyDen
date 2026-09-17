@@ -5,7 +5,8 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "test:api": "newman run StudyDen_API_TestSuite.json -r cli,htmlextra"
   },
   "dependencies": {
     "@google-cloud/local-auth": "^3.0.1",
@@ -19,10 +20,13 @@
     "express": "^4.19.2",
     "googleapis": "^171.4.0",
     "jsonwebtoken": "^9.0.3",
+    "leaflet": "^1.9.4",
     "mongoose": "^8.23.0",
     "multer": "^2.1.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "newman": "^6.2.2",
+    "newman-reporter-htmlextra": "^1.23.1",
+    "nodemon": "^3.1.14"
   }
 }

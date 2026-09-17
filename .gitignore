@@ -22,3 +22,7 @@ npm-debug.log*
 # Sensitive config (OAuth credentials)
 server/credentials.json
 server/token.json
+
+# SQA & Test Reports
+newman/
+server/newman/
