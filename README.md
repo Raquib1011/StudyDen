@@ -188,9 +188,15 @@ Executing npm run test:api automatically builds an interactive HTML execution re
 
 ---
 
+
+### Visual Test Execution Report
+
+![Newman API Test Dashboard](./docs/newman-dashboard.png)
 ## Learning Outcomes
 
 This project demonstrates experience with:
+
+---
 
 * Full-stack MERN development
 * REST API development
